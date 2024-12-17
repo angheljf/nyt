@@ -7,6 +7,8 @@ This is a TypeScript-based MCP server that allows searching for New York Times a
 
 ![NYTimes Article Search](img/example.png)
 
+<a href="https://glama.ai/mcp/servers/ylg4ai4vin"><img width="380" height="200" src="https://glama.ai/mcp/servers/ylg4ai4vin/badge" alt="NYTimes Article Search Server MCP server" /></a>
+
 ## Features
 
 ### Tools
