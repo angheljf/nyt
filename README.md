@@ -1,5 +1,7 @@
 # NYTimes Article Search MCP Server
 
+[![smithery badge](https://smithery.ai/badge/nyt)](https://smithery.ai/server/nyt)
+
 This is a TypeScript-based MCP server that allows searching for New York Times articles from the last 30 days based on a keyword. It demonstrates core MCP concepts by providing:
 
 - Tools for searching articles
@@ -45,6 +47,15 @@ The Inspector will provide a URL to access debugging tools in your browser.
 
 ## Installation
 
+### Installing via Smithery
+
+To install NYTimes Article Search for Claude Desktop automatically via [Smithery](https://smithery.ai/server/nyt):
+
+```bash
+npx -y @smithery/cli install nyt --client claude
+```
+
+### Manual Installation
 To use with Claude Desktop, add the server config:
 
 On MacOS: `~/Library/Application Support/Claude/claude_desktop_config.json`
