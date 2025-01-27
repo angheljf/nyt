@@ -1,0 +1,17 @@
+# Smithery configuration file: https://smithery.ai/docs/config#smitheryyaml
+
+startCommand:
+  type: stdio
+  configSchema:
+    # JSON Schema defining the configuration options for the MCP.
+    type: object
+    required:
+      - nytimesApiKey
+    properties:
+      nytimesApiKey:
+        type: string
+        description: The API key for accessing the New York Times API.
+  commandFunction:
+    # A function that produces the CLI command to start the MCP on stdio.
+    |-
+    (config) => ({command:'node',args:['build/index.js'],env:{NYTIMES_API_KEY:config.nytimesApiKey}})
