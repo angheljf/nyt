@@ -11,6 +11,10 @@ This is a TypeScript-based MCP server that allows searching for New York Times a
 
 <a href="https://glama.ai/mcp/servers/ylg4ai4vin"><img width="380" height="200" src="https://glama.ai/mcp/servers/ylg4ai4vin/badge" alt="NYTimes Article Search Server MCP server" /></a>
 
+## Hosted deployment
+
+A hosted deployment is available on [Fronteir AI](https://fronteir.ai/mcp/angheljf-nyt).
+
 ## Features
 
 ### Tools
