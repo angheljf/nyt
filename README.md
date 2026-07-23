@@ -1,5 +1,6 @@
 # NYTimes Article Search MCP Server
 
+[![Trust Score](https://archestra.ai/mcp-catalog/api/badge/quality/angheljf/nyt)](https://archestra.ai/mcp-catalog/angheljf__nyt)
 [![smithery badge](https://smithery.ai/badge/nyt)](https://smithery.ai/server/nyt)
 
 This is a TypeScript-based MCP server that allows searching for New York Times articles from the last 30 days based on a keyword. It demonstrates core MCP concepts by providing:
